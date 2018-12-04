@@ -1,4 +1,4 @@
-var connection = require("./connection.js");
+var connection = require("../config/connection.js");
 
 // var orm = {
 //     selectAll();
@@ -108,4 +108,4 @@ function printQuestionMarks(num) {
     }
   };
 
-module.exports = orm
+module.exports = orm;
